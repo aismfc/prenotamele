@@ -7,43 +7,38 @@ Author URI: http://www.qodethemes.com/
 Version: 1.0.0
 Template: bridge
 */
+
 @import url("../bridge/style.css");
-
-
-
-
-
 body, html {
-    font-size: 18px; color: #3a3533;
+    font-size: 18px;
+    color: #3a3533;
 }
 
 .content, .content .container, .full_width {
     background-color: #ffffff!important;
 }
 
-
-nav.main_menu > ul > li > a {
-	 text-transform: uppercase!important;
+nav.main_menu>ul>li>a {
+    text-transform: uppercase!important;
 }
-nav.main_menu > ul > li > a:hover span {
+
+nav.main_menu>ul>li>a:hover span {
     text-decoration: underline;
 }
 
-
 header.fixed.scrolled .header_bottom, header.fixed_hiding.scrolled .header_bottom {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-
-
-
-.qbutton, .qbutton.white { border-radius: 3px; /*padding: 15px 40px;*/ }
+.qbutton, .qbutton.white {
+    border-radius: 3px;
+    /*padding: 15px 40px;*/
+}
 
 #back_to_top:hover span {
     background-color: rgb(255, 37, 36);
     border-color: rgb(255, 37, 36);
 }
-
 
 input#fld_7908577_1 {
     padding: 14px;
@@ -55,7 +50,7 @@ input#fld_7908577_1 {
 
 .caldera-grid .form-control {
     border-radius: 3px;
-    background: rgba(0,0,0,0.1); 
+    background: rgba(0, 0, 0, 0.1);
     outline: none;
     Line-height: 50px;
     height: 50px;
@@ -63,12 +58,9 @@ input#fld_7908577_1 {
     font-size: 1.3em;
 }
 
-
-
 h2, .h2, h2 a {
     color: #3a3533;
 }
-
 
 input#fld_7908577_1 {
     padding: 20px;
@@ -87,14 +79,10 @@ input#fld_7908577_1:hover {
     border-color: #3a3533!important;
 }
 
-
-
-
 section.parallax_section_holder.qode_full_screen_height_parallax.qode_vertical_middle_align {
     /*background-size: cover;*/
-	background-color:#f2efea;
+    background-color: #f2efea;
 }
-
 
 /*
 .incontri p {
@@ -103,13 +91,12 @@ section.parallax_section_holder.qode_full_screen_height_parallax.qode_vertical_m
 
 .q_accordion_holder.accordion .ui-accordion-header:hover {
     color: #f04e29!important;
-	opacity: 0.9;
+    opacity: 0.9;
 }
 
 .portfolio_navigation .portfolio_prev a:hover, .portfolio_navigation .portfolio_next a:hover, .q_tabs.vertical .tabs-nav li.active a, .q_tabs.vertical.left .tab-content, .q_tabs.vertical.right .tab-content, .q_tabs.boxed .tabs-nav li.active a, .q_tabs.boxed .tabs-container, .q_accordion_holder.accordion .ui-accordion-header .accordion_mark, .single_links_pages span, .single_links_pages a:hover span, .pagination ul li span, .pagination ul li a:hover, .service_table_inner li {
     border: 0px;
 }
-
 
 .caldera-grid .form-control {
     border-radius: 0px;
@@ -119,6 +106,7 @@ section.parallax_section_holder.qode_full_screen_height_parallax.qode_vertical_m
 .addthis_default_style .addthis_separator, .addthis_default_style .at4-icon, .addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300bs, .addthis_default_style .at300m {
     float: none!important;
 }
+
 .addthis_toolbox.addthis_default_style.addthis_32x32_style {
     width: 250px!important;
     margin: 0 auto!important;
@@ -129,15 +117,13 @@ section.parallax_section_holder.qode_full_screen_height_parallax.qode_vertical_m
     top: 100px!important;
 }
 
-
 a.linkcliccaqui {
     color: #fff;
 }
 
-
 span.accordion_mark_icon {
     background-image: url(img/pin.png)!important;
-	background-size: 30px 40px!important;
+    background-size: 30px 40px!important;
 }
 
 .q_progress_bar .progress_content_outer, .q_progress_bars_vertical .progress_content_outer, .portfolio_navigation .portfolio_prev a:hover, .portfolio_navigation .portfolio_next a:hover, .q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark, .q_accordion_holder.accordion.boxed .ui-accordion-header, .q_social_icon_holder .fa-stack, .single_links_pages span, .single_links_pages a:hover span, .pagination ul li span, .pagination ul li a:hover, .q_circles_holder .q_circle_inner2 {
@@ -146,7 +132,7 @@ span.accordion_mark_icon {
 
 .q_accordion_holder.accordion.without_icon .ui-accordion-header span.tab-title {
     font-size: 1.3em!important;
-	line-height: 1.3em!important;
+    line-height: 1.3em!important;
 }
 
 .addtoany_share_save_container {
@@ -154,86 +140,121 @@ span.accordion_mark_icon {
     text-align: center!important;
     margin-top: 30px!important;
     padding-bottom: 30px!important;
-	    width: 160px!important;
+    width: 160px!important;
     margin: 0 auto!important;
 }
 
 .q_accordion_holder.accordion.without_icon .ui-accordion-header span.tab-title {
     padding: 0 0 0 53px;
 }
+
 #cookie-law-info-bar span {
     vertical-align: inherit!important;
 }
+
 span.clicca {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-@media only screen and (min-width: 1001px){
-header .header_inner_left {
-    left: 5%;
-}
-.q_logo a {
-    height: 200px !important;
+@media only screen and (min-width: 1001px) {
+    header .header_inner_left {
+        left: 5%;
+    }
+    .q_logo a {
+        height: 200px !important;
+    }
 }
 
+@media only screen and (min-width: 1280px) {
+    .qbutton.white {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
 }
 
-
-@media only screen and (min-width: 1280px){
-.qbutton.white {
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-}
-}
-
-
-@media only screen and (max-width: 1366px){
-h1, .h1, .title h1 {    font-size: 60px;    line-height: 58px;}
-h2, .h2, h2 a {    font-size: 50px;    line-height: 50px;}
-h3, .h3, h3 a { font-size: 24px;    line-height: 26px;}
-.header_bottom { padding: 0 0px 0 0;}
-}
-
-@media only screen and (max-width: 1000px){
-.q_logo { left: 0;  top: 0px!important;}
-.header_bottom { padding: 0 0px 0 0;}
-nav.mobile_menu ul li, nav.mobile_menu ul li, nav.mobile_menu ul li ul li, nav.mobile_menu ul li.open_sub > ul { padding-left: 10px;}
-.q_accordion_holder.accordion.without_icon .ui-accordion-header span.tab-title {
-    font-size: 1em!important;
-    line-height: 1em!important;
-}
-.qbutton, .qbutton.medium, #submit_comment, .load_more a, .blog_load_more_button a, .post-password-form input[type='submit'], input.wpcf7-form-control.wpcf7-submit, input.wpcf7-form-control.wpcf7-submit:not([disabled]), .woocommerce table.cart td.actions input[type="submit"], .woocommerce input#place_order, .woocommerce-page input[type="submit"], .woocommerce .button {
-    letter-spacing: 0px;
-}
-.qbutton.big_large_full_width { width: 90%;}
+@media only screen and (max-width: 1366px) {
+    h1, .h1, .title h1 {
+        font-size: 60px;
+        line-height: 58px;
+    }
+    h2, .h2, h2 a {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h3, .h3, h3 a {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .header_bottom {
+        padding: 0 0px 0 0;
+    }
 }
 
-@media only screen and (width: 768px){
-.qbutton.big_large_full_width { width: 90%;}
+@media only screen and (max-width: 1000px) {
+    .q_logo {
+        left: 0;
+        top: 0px!important;
+    }
+    .header_bottom {
+        padding: 0 0px 0 0;
+    }
+    nav.mobile_menu ul li, nav.mobile_menu ul li, nav.mobile_menu ul li ul li, nav.mobile_menu ul li.open_sub>ul {
+        padding-left: 10px;
+    }
+    .q_accordion_holder.accordion.without_icon .ui-accordion-header span.tab-title {
+        font-size: 1em!important;
+        line-height: 1em!important;
+    }
+    .qbutton, .qbutton.medium, #submit_comment, .load_more a, .blog_load_more_button a, .post-password-form input[type='submit'], input.wpcf7-form-control.wpcf7-submit, input.wpcf7-form-control.wpcf7-submit:not([disabled]), .woocommerce table.cart td.actions input[type="submit"], .woocommerce input#place_order, .woocommerce-page input[type="submit"], .woocommerce .button {
+        letter-spacing: 0px;
+    }
+    .qbutton.big_large_full_width {
+        width: 90%;
+    }
 }
 
-@media only screen and (max-width: 768px){
-h1, .h1, .title h1 {    font-size: 46px;    line-height: 45px;}
-h2, .h2, h2 a {    font-size: 40px;    line-height: 40px;}
-h3, .h3, h3 a { font-size: 20px;    line-height: 20px;}
-.vc_row.wpb_row.section.vc_row-fluid.incontri.grid_section {
-    padding-bottom: 0px!important;
-}
+@media only screen and (width: 768px) {
+    .qbutton.big_large_full_width {
+        width: 90%;
+    }
 }
 
-@media only screen and (max-width: 600px){
-h1, .h1, .title h1 {    font-size: 36px;    line-height: 36px;}
-h2, .h2, h2 a {    font-size: 30px;    line-height: 30px;}
-h3, .h3, h3 a { font-size: 16px;    line-height: 16px;}
+@media only screen and (max-width: 768px) {
+    h1, .h1, .title h1 {
+        font-size: 46px;
+        line-height: 45px;
+    }
+    h2, .h2, h2 a {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    h3, .h3, h3 a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .vc_row.wpb_row.section.vc_row-fluid.incontri.grid_section {
+        padding-bottom: 0px!important;
+    }
+}
 
-.touch section.parallax_section_holder {  background-position: left top !important;}
-.qbutton.big_large_full_width { width: 85%;}
-
+@media only screen and (max-width: 600px) {
+    h1, .h1, .title h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    h2, .h2, h2 a {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h3, .h3, h3 a {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .touch section.parallax_section_holder {
+        background-position: left top !important;
+    }
+    .qbutton.big_large_full_width {
+        width: 85%;
+    }
 }
