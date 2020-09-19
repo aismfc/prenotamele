@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1000px){
+		.header_bottom {
+		background-color: #d22333;
+	}
+				.header_bottom,
+		nav.mobile_menu{
+			background-color: #d22333 !important;
+		}
+			}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	
+	        section.parallax_section_holder{
+			height: auto !important;
+			min-height: 400px;
+		}
+		}
+@media only screen and (max-width: 768px){
+			h1 {
+			font-size: 106px; 			line-height: 94px; 		    		}
+	
+	
+			h3 {
+			font-size: 26px; 			line-height: 35px; 		    		}
+	
+	
+	
+	
+	
+	
+	}
+@media only screen and (max-width: 600px) {
+			h1 {
+			font-size: 55px; 			line-height: 53px; 		    		}
+	
+			h2 {
+			font-size: 55px; 			line-height: 53px; 		    		}
+	
+			h3 {
+			font-size: 22px; 			line-height: 32px; 		    		}
+	
+	
+	
+	
+			body,
+		p {
+			font-size: 15px; 					    		}
+	}
+@media only screen and (max-width: 480px){
+
+			section.parallax_section_holder {
+			height: auto !important;
+			min-height: 400px;
+		}
+	
+		
+	}
